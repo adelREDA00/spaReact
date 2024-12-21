@@ -6,7 +6,7 @@ import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import UserPlaces from "./components/Places/UserPlaces";
 import AddPlaces from "./components/AddPlaces/AddPlaces";
-import UserContextProvider from "./context/userContext";
+import UserContextProvider from "./context/UserContext";
 import Home from "./components/Home/Home";
 import Form from "./components/Form/Form";
 import PlacePage from "./components/Places/PlacePage";

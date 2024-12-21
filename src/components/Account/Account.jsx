@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import AccountNav from "./AccountNav";
-import { UserContext } from "../../context/userContext";
+import { UserContext } from "../../context/UserContext";
 import ClipLoader from "react-spinners/ClipLoader";
 import * as api from '../../api/requester'
 
