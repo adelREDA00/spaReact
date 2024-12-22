@@ -11,7 +11,7 @@ import * as api from "../../api/requester";
 const URL_TO_UPLOADS2 =
     process.env.NODE_ENV === "development"
         ? "http://localhost:5000/uploads/"
-        : "https://spanode.onrender.com/uploads/";
+        : "https://spanode.onrender.com/assets/uploads/";
 
 function UploadPhotos({ uploadPhotos, setUploadPhotos }) {
     const [uploadPhotoByLink, setUploadPhotoByLink] = useState("");
